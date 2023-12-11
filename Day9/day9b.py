@@ -44,6 +44,7 @@ def extrapolate_next(sequence):
 
     return cur_num
 
+
 def main():
     data = read_data()
     count = 0
@@ -51,6 +52,7 @@ def main():
         count += extrapolate_next(sequence)
 
     print(f"Sum of extrapolated values: {count}")
+
 
 if __name__ == "__main__":
     main()
